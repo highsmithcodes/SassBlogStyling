@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.lt-purple{color:#786f99;}
+.white{color:#fff;}
+
+.button{padding:15px 25px;border-radius: 25px;font-weight: 600;text-decoration: none;}
+.button.white{background-color: #fff;color:#0c0429;}
+.button.purple{background-color: #5459d6;color:#fff;}
+.button.transparent{background-color: transparent;color:#fff;}
+
+.purple-bg{background-color: #0c0429;}
+.purple-bg-light{background-color: #5459d6;}
+
+h1{font-size: 5em;margin:20px 0;}
+h2{font-size: 4em;margin:20px 0;}
+
+.w-95{width:95%;margin: 0 auto;}
+
+.nav{
+  background-color:#0c0429;
+}
+
+.nav{display: flex;justify-content: space-between;align-items: center;flex-direction: row;}
+.nav ul{padding-left: 0;}
+.nav ul a{color:#fff;text-decoration: none;padding:0 20px; text-align: center;}
+.nav .nav-button{margin-right: 20px;}
+
+.hero{height:100vh;}
+.hero-inner{background-color: red;height:90vh;border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;background: linear-gradient(180deg, rgba(12,4,41,1) 0%, rgba(40,31,77,1) 100%);}
+
+.hero-content{width:960px;margin: 0 auto;display: flex;flex-direction: row;align-items: center;height:100%;justify-content: center;}
+.hero-content .col-50{width:50%;text-align: left;}
+.hero-buttons{margin-top:50px;}
+
+.home-steps{padding:50px 0;}
+ul.steps{display: flex;justify-content: center;align-items: center;flex-direction: row;padding-left: 0;}
+.step-icon{background: linear-gradient(132deg, rgba(31,23,66,1) 0%, rgba(10,4,40,1) 100%);height:100px;width: 100px;border-radius: 25px;margin: 0 auto;}
+
+.home-services-inner{padding:50px 0;border-radius: 25px;}
