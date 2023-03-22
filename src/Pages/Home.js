@@ -36,12 +36,12 @@ function Home() {
         <Nav />
 
         <div className="hero purple-bg">
-          <div className="hero-inner w-95">
+          <div className="hero-inner w-95m container">
             <div className="hero-content">
               <div className="col-50">
                 <div className="sub-title-small lt-purple">The most informative, cryptocurrency digital platform</div>
                 <h1 className="white">Elite Informative Platform</h1>
-                <p className="lt-purple">Specialized currated informative cryptocurrency center with you in mind.</p>
+                <p className="text-3xl font-bold underline">Specialized currated informative cryptocurrency center with you in mind.</p>
                 <div className="hero-buttons">
                   <Link className="button purple" to="/blog/">View Information</Link>
                   <Link className="button transparent" to="/intro/">Get Started</Link>
